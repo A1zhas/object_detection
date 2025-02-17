@@ -1,0 +1,6 @@
+names:
+- knife
+- spoon
+nc: 2
+train: C:\\Users\\Alen\\Desktop\\CV\\Object detection\\YOLO\\dataset\\train\\images
+val: C:\\Users\\Alen\\Desktop\\CV\\Object detection\\YOLO\\dataset\\val\\images
