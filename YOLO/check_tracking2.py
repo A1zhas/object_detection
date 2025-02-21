@@ -68,7 +68,7 @@ def process_video_with_tracking(model, input_video_path, show_video=True, save_v
 
 
 # Example usage:
-model = YOLO('C:\\Users\\Alen\\Desktop\\CV\\Object detection\\YOLO\\runs\\segment\\train5\\weights\\best.pt')
-process_video_with_tracking(model, input_video_path="C:\\Users\\Alen\\Desktop\\CV\\Object detection\\YOLO\\track_video.mp4",
+model = YOLO('C:\\Users\\Alen\\Desktop\\CV\\Object_detection\\YOLO\\runs\\segment\\train5\\weights\\best.pt')
+process_video_with_tracking(model, input_video_path="C:\\Users\\Alen\\Desktop\\CV\\Object_detection\\YOLO\\track_video.mp4",
                                           show_video=True, save_video=False,
-                                          output_video_path="C:\\Users\\Alen\\Desktop\\CV\\Object detection\\YOLO\\output_video.mp4")
+                                          output_video_path="C:\\Users\\Alen\\Desktop\\CV\\Object_detection\\YOLO\\output_video.mp4")

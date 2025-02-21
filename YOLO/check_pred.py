@@ -3,9 +3,9 @@ import matplotlib.pyplot as plt
 import cv2
 import numpy as np
 
-model = YOLO('C:\\Users\\Alen\\Desktop\\CV\\Object detection\\YOLO\\runs\\segment\\train5\\weights\\best.pt')
+model = YOLO('C:\\Users\\Alen\\Desktop\\CV\\Object_detection\\YOLO\\runs\\segment\\train5\\weights\\best.pt')
 
-img = cv2.imread('C:\\Users\\Alen\\Desktop\\CV\\Object detection\\YOLO\\photo\\IMG_2957.JPG')
+img = cv2.imread('C:\\Users\\Alen\\Desktop\\CV\\Object_detection\\YOLO\\photo\\IMG_2957.JPG')
 
 results = model(img, imgsz=640, iou=0.4, conf=0.7, verbose=True)
 

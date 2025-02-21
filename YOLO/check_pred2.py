@@ -4,10 +4,10 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Загрузка модели YOLO
-model = YOLO(r'C:\Users\Alen\Desktop\CV\Object detection\YOLO\runs\segment\train5\weights\best.pt')
+model = YOLO(r'C:\Users\Alen\Desktop\CV\Object_detection\YOLO\runs\segment\train5\weights\best.pt')
 
 # Загрузка изображения
-image = cv2.imread('C:\Users\Alen\Desktop\CV\Object detection\YOLO\photo\IMG_2957.JPG')
+image = cv2.imread('C:\Users\Alen\Desktop\CV\Object_detection\YOLO\photo\IMG_2957.JPG')
 image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)  # Преобразование в RGB для matplotlib
 
 # Параметры инференса
